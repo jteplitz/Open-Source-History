@@ -12,3 +12,11 @@ header{
     height: 22px;
 }
 
+footer.bs-footer{
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin-top: 100px;
+  color: #777;
+  text-align: center;
+  border-top: 1px solid #e5e5e5;
+}
