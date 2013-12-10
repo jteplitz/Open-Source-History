@@ -1,0 +1,14 @@
+body{
+    background: #ecf0f1;
+}
+header{
+    background-color: #8ccedc;
+}
+
+.navbar-header{
+    z-index: 1040;
+}
+.navbar-header .navbar-brand .navbar-logo{
+    height: 22px;
+}
+
