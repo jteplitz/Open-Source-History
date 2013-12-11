@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/sidebar.css" />
+    <link rel="icon" type="image/gif" href="favicon.ico" />
+    
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if ><script src="../docs-assets/js/ie8-responsive-file-warning.js"></script>
+             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+             <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <nav class="navbar-fixed-top navbar-default" role="navigation">
+      <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="index.html" class="navbar-brand">
+          <img src="img/logo.png" class="img-responsive navbar-logo" />
+        </a>
+      </div>
+      <div class="collapse navbar-collapse bs-navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="history.html">History</a>
+          </li>
+          <li class="active">
+            <a href="economics.html">Economics</a>
+          </li>
+          <li>
+            <a href="examples.html">Examples</a>
+          </li>
+        </ul>
+      </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div data-spy="affix" data-offset-top="15" data-offset-bottom="200" class="nav-sidebar">
+            <ul class="nav">
+              <li><a href="#economics">The Economic Perspective</a></li>
+              <li><a href="#thriving">Open Source is Thriving</a></li>
+              <li><a href="#incentives">The Conundrum of Incentives</a></li>
+              <li><a href="#organization">The Conundrum of Organization</a></li>
+              <li><a href="#response">Software Companies&#39; Response</a></li>
+              <li><a href="#property">Challenging Basic Notions of Property</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-9 content">
+          <div class="page-header" id="economics">
+            <h1>The Economic Perspective</h1>
+          </div>
+          <blockquote>
+          <p>Intuition tells us that thousands of volunteers are unlikely to come together to collaborate on a complex economic project, sustain the collaboration over time, and build something that they give away freely, particularly something that can beat some of the largest and richest business enterprises in the world at their own game.</p>
+          <small> Steven Weber</small>
+          </blockquote>
+
+          <h3 id="thriving">Open Source is Thriving!</h3>
+          <p>Determining what is good code can be bit subjective, but for economic purposes market share is a pretty good place to look. There are thousands of open source projects. Nearly over 65 percent of all active websites use Apache. Nearly 40 percent of large companies use Linux. Sendmail powers 80 percent of the world&#39;s mail services.</p>
+
+          <h3 id="incentives">The Conundrum of Incentives</h3>
+            <p>Basic economics is rooted on the idea that you can&#39;t reproduce the products you buy. Coca-cola remains successful because no one else can sell you a bottle of soda exactly the sam. No one can just copy the formula, that would be against the law.This protects innovators who are coming up with the formula. The same principles should apply to proprietary code. You can buy Windows, but you cannot modify it, improve it, reproduce it, and redistribute. Giving out the source code, the recipe for the software, is extremely counter-intuitive given this economic principle. So why are people incentivized then to contribute to open source?</p>
+            <p>There actually lots of incentives for people to get involved in the open source movement! Coders increase their skills and have fun by working on open source projects. Programmers can shift from one project to another more fluidly than if working for a company on a more formal project. Further, open source gives coders an audience because people can see who worked on the code and what they did. People may want demonstrate their skills to potential peers, employers, and venture capitalists. This forces coders to do their very best work because they have full control over their portion of the code, and they can’t blame some higher authority. Also, founders may start a project due to problems encountered in their everyday work. For example, Richard Stallman was upset he couldn’t improve source code for Xerox, and Apache was started by system administrators who found similar problems. Some corporations even have employees work on open source as part of their regular assignments.</p>
+          
+
+          <h3 id="organization">The Conundrum of Organization</h3>
+          <div class="row">
+            <div class="col-md-3">
+              <img src="img/logos/github.png" class="img-responsive img-rounded" />
+            </div>
+            <div class="col-md-9">
+              <p>Open source challenges conventional theories about the organization of production. People usually do not easily work together in large groups towards a joint goal. Even worse is the fact that in open source there is no centralized hierarchy to coordinate labour. Often the code being made in open source is complex and someone needs to organize it. Also, someone must ultimately decide what code goes into the newest version of the software. How can programmers work together to make such large and complex systems of software when they are just an unstructured group of individuals separated by geography, culture, language, and other barriers?</p>
+              <p>There is actually a pseudo-organization to open source projects. The initial leader is usually the founder of a project. The initial leader must have a critical mass of code that people can react to. The initial leader provides the vision that attracts other coders. This code draws others by showing the project has merit. In fact, different leadership structures exist for different projects. In some cases there is an undisputed leader such as Linus Torvald. In other cases such as Apache there is a voting mechanism for disputes. The leadership&#39;s recommendations are generally followed by programmers because approval of code by a leader makes it more respected by others in the open source community. Also, the structure of the code must be able to broken down into distinct components that lend themselves to specific tasks. Many argue that this was key to Unix’s success.</p>
+            </div>
+          </div>
+
+          <h3 id="response">Software Companies&#39; Response</h3>
+          <div class="row">
+            <div class="col-md-4">
+              <p>Companies are attempting to live symbiotically with the open source movement. Some are attempting to provide services that are not provided by open source community but compliment those provided by open source such as Red Hat with Linux. Some have released part of their proprietary code as open source to improve their code. For example, Hewlett-Packard release its Spectrum Object Mode- Linker as open source.</p>
+            </div>
+            <div class="col-md-8">
+              <img src="img/companies_response.png" class="img-responsive img-rounded" />
+            </div>
+          </div>
+
+          <h3 id="property">Challenging Basic Notions of Property</h3>
+          <p>Open source challenges traditional notions of property. What does it mean to “own” something? What rights do ownership confer? Property as traditionally defined is the right to exclude. Property in the open source movement is defined in terms of the right to distribute, not to exclude others.</p>
+        </div>
+      </div>
+  </body>
+</html>
