@@ -32,7 +32,8 @@ div.card p.url a {
   color: #04bff4;
   text-decoration: none;
   top: 4px;
-  width: 385px;
+  width: 100%;
+  text-overflow:ellipsis;
   display: block;
   position: relative;
 }
@@ -45,4 +46,8 @@ div.card img.full {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
+}
+
+.container p{
+  text-align: left;
 }
